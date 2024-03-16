@@ -4,14 +4,16 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (  
         <nav className="navbar">
-            <Link to="Home"><h1>Muse</h1></Link>
+            <Link to="/"><h1>Muse</h1></Link>
             <div className="links">
-            <a href="/create">My Events</a>
+            <Link to="/">Home</Link>
+            <Link to="/Testimonial">Testimonials</Link>
+            <Link to="/Contact">Contact</Link>
                 <Link to="Login" style={{
                     color:"white",
-                    backgroundColor: "#f1356d",
+                    backgroundColor: "#257bec",
                     borderRadius: "16px"
-                }}>Add Event</Link>              
+                }}>Dashboard</Link>              
             </div>
         </nav>
 

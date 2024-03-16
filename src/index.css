@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
 
 * {
   margin: 0;
-  font-family: "Quicksand";
+  font-family: "Nunito";
   color: #333;
 }
 
@@ -14,18 +14,23 @@
   border-bottom: 1px solid #f2f2f2;
 }
 .navbar h1 {
-  color: #f1356d;
+  color: #257bec;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .navbar .links {
   margin-left: auto;
+  
 }
 .navbar a {
-  margin-left: 16px;
+  
+  margin-left: 70px;
   text-decoration: none;
   padding: 6px;
+  color: #000;
+  
 }
 .navbar a:hover {
-  color: #f1356d;
+  color: #257bec;
 }
 .content {
   max-width: 600px;
@@ -42,7 +47,7 @@
 }
 .blog-preview h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #257bec;
   margin-bottom: 8px;
 }
 
@@ -61,8 +66,8 @@
 
 
 
-.container{
-    width: 400px;
+.lg-container{
+    width: 20%;
     background-color:#fff;
     color: #000;
     border-radius: 15px;
@@ -71,21 +76,21 @@
     z-index: 2; 
   }
   
-  .container h1{
+  .lg-container h1{
     font-size: 36px;
     text-align: center;
   }
   
-  .container .input-box {
+  .lg-container .input-box {
     position: relative;
-    width: 100%;
     margin: 30px 0;
+    width: 100%;
     
   
   }
   
-  .input-box input{
-    width: 85%;
+  .lg-input-box input{
+    width: 80%;
     height: 100%;
     background: transparent;
     outline: none;
@@ -97,12 +102,12 @@
   
   }
   
-  .input-box input::placeholder{
+  .lg-input-box input::placeholder{
     color: #000;
   
   }
   
-  .input-box .icon{
+  .lg-input-box .icon{
     position: absolute;
     right: 20px;
     top: 50%;
@@ -110,28 +115,28 @@
     font-size: 16px;
   }
   
-  .container .remember-forgot {
+  .lg-container .remember-forgot {
     display: flex;
     justify-content: space-between;
     font-size: 14.5px;
     margin: -15px 0 15px;
   }
   
-  .remember-forgot label input {
+  .lg-remember-forgot label input {
     accent-color: #fff;
     margin-left: 4px;
   }
   
-  .remember-forgot a {
+  .lg-remember-forgot a {
     color: #000;
     text-decoration: none;
   }
   
-  .remember-forgot a:hover{
+  .lg-remember-forgot a:hover{
     text-decoration: underline;
   }
   
-  .container button{
+  .lg-container button{
     width: 100%;
     height: 45px;
     background: #000;
@@ -145,19 +150,19 @@
   }
   
   
-  .container .register-link{
+  .lg-container .register-link{
     font-size: 14.5px;
     text-align: center;
     margin-top: 20px;
   }
   
-  .register-link p a {
+  .lg-register-link p a {
     color: #000;
     text-decoration: none;
     font-weight: 600;
   }
   
-  .register-link p a:hover{
+  .lg-register-link p a:hover{
     text-decoration:underline ;
   }
   
@@ -172,9 +177,77 @@
   }
   .event-preview h2 {
     font-size: 20px;
-    color: #f1356d;
+    color: #257bec;
     margin-bottom: 8px;
   }
+
+  .home-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 6%;
+    margin-left: 10%;
+    width: 80%;
+  }
+
+  .home-text h1{
+    font-size: 70px;
+    margin-top: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .home-text p{
+    font-size: 30px;
+    width: 70%;
+    margin-left: 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .home-text button{
+    margin-left: 30%;
+  }
+
+  .home-text button :hover{
+    transform: scale(1.1);
+  }
+
+
+  .latest-event{
+    margin-left: 35%;
+  }
+
+  .latest-event h6{
+    margin-left: 10%;
+  }
+  
+  .latest-card-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-left: 7%;
+  }
+  
+  .page-footer{
+    background-color: black;
+    margin-top: 5%;
+  }
+
+  .service-header{
+    margin-top: 10px;
+    margin-left: 40%;
+  }
+
+  .contact-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .contact-header{
+    margin-left: 40%;
+  }
+.contact-header h4{
+  margin-left: 50px;
+}
+
+  
   
   
   
