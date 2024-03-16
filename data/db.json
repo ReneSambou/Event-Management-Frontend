@@ -1,25 +1,5 @@
 {
-    "events": [
-      {
-        "title": "Remember ME",
-        "Location": "",
-        "Date": "27th May 2024",
-        "author": "mario",
-        "id": 1
-      },
-      {
-        "title": "Remember ME",
-        "Location": "",
-        "Date": "27th May 2024",
-        "author": "mario",
-        "id": 1
-      },
-      {
-        "title": "Remember ME",
-        "Location": "",
-        "Date": "27th May 2024",
-        "author": "mario",
-        "id": 1
-      }
-    ]
-  }
+  "events": [
+   
+  ]
+}

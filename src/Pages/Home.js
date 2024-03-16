@@ -7,6 +7,8 @@ import Lottie from 'lottie-react';
 import animationData from '../Components/Assets/welcome4.json';
 import Button from 'react-bootstrap/Button';
 import EventCard from '../Components/EventCard';
+import { Link } from 'react-router-dom';
+
 
 const allEvents = [
   {
@@ -114,9 +116,10 @@ const Home = () => {
             <br />
             Trusted by 1000+ users
           </p>
-          <Button variant='primary' size='lg'>
-            Get Started{' '}
-          </Button>{' '}
+          <Link to='Home/Register'><Button variant='primary' size='lg'>
+            Get Started
+          </Button>
+         </Link>
         </div>
         <div className='home-lottie'>
           <Lottie animationData={animationData} />

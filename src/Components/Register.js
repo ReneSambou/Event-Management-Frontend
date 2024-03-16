@@ -3,8 +3,10 @@ import { FaUser, FaLock } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import Lottie from 'lottie-react';
 import animationData from '../Components/Assets/signup.json';
+import {userSchema} from '../Validations/UserValidation'
+import * as yup from "yup"
 
-
+ 
 function Login() {
   return ( 
     

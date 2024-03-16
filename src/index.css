@@ -234,22 +234,62 @@
     margin-top: 5%;
   }
 
-  .service-header{
-    margin-top: 10px;
-    margin-left: 40%;
+  .event-nav {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    border-bottom: 1px solid #f2f2f2;
+  }
+  .event-nav h1 {
+    color: #257bec;
+  }
+  .event-nav .event-nav-links {
+    margin-left: auto;
+  }
+  .event-nav a {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+    color: #000;
+
+  }
+  .event-nav a:hover {
+    color: #257bec;
   }
 
-  .contact-container{
-    display: grid;
-    grid-template-columns: 50% 50%;
+  .create {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .create label {
+    text-align: left;
+    display: block;
+  }
+  .create h2 {
+    font-size: 20px;
+    color: #257bec;
+    margin-bottom: 30px;
+  }
+  .create input, .create textarea, .create select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+  }
+  .create button {
+    background: #257bec;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
   }
 
-  .contact-header{
-    margin-left: 40%;
-  }
-.contact-header h4{
-  margin-left: 50px;
-}
 
   
   
