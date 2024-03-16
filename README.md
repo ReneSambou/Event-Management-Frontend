@@ -1,70 +1,30 @@
-# Muse Event Management
+## Muse - Event Management System
+Muse is a web-based event management system designed to streamline the process of organizing and managing events. Built with React.js for the frontend and utilizing a JSON server as the backend, Muse offers a user-friendly interface for event organizers to create, update, and manage events efficiently.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+Event Creation: Easily create new events by providing essential details such as event name, date, time, location, and description.
+Event Management: Manage all created events with options to view, edit, and delete events as needed.
+JSON Server Backend: Utilizing a JSON server as the backend ensures data persistence and easy setup for development and testing purposes.
 
-## Available Scripts
+## Technologies Used
+React.js: A popular JavaScript library for building user interfaces, used for the frontend development of Muse.
+JSON Server: A lightweight, local JSON server used to simulate a backend server for storing and retrieving event data.
+React Router: Used for client-side routing to navigate between different pages within the Muse application.
+Axios: A promise-based HTTP client for making requests to the JSON server API from the frontend.
+## Installation
+Clone the repository: git clone https://github.com/ReneSambou/Event-Management-Frontend
+Navigate to the project directory: cd Event-Management-Frontend
+Install dependencies: npm install
+Start the JSON server: npm run server
+In a separate terminal, start the React application: npm start
+Open your browser and navigate to http://localhost:3000 to access Muse.
+## Usage
+Create an Event: Click on the "Create Event" button and fill in the required details such as event name, date, time, location, and description. Click "Save" to create the event.
+View Events: Navigate to the "Events" page to view all created events. Click on an event to view its details.
+Delete Event: To delete an event, click on the "Delete" button next to the event on the "Events" page. Confirm the deletion when prompted.
+## Contributing
+Contributions to Muse are welcome! If you'd like to contribute, please fork the repository, create a new branch, make your changes, and submit a pull request.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
