@@ -1,15 +1,22 @@
 import React from 'react';
 import { FaUser, FaLock } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import Lottie from 'lottie-react';
+import animationData from '../Components/Assets/login.json';
+
+
 
 
 function Login() {
   return ( 
     
     <div className='LoginBody'> 
+      <div className='lg-lottie'>
+        <Lottie animationData={animationData} />
+        </div>
       <div className='lg-container'>
         <form action="">
-          <h1>Login As Admin</h1>
+          <h1>Login</h1>
           <div className="lg-input-box">
             <input type='text' placeholder='Username' required/>
             <FaUser className='icon' />

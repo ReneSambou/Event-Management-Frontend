@@ -1,7 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Contact from './Pages/Contact';
-import Testimonial from './Pages/Testimonial';
+import Events from './Components/Events.js';
 import Footer from './Components/Footer.js';
 
 
@@ -18,10 +17,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route exact path="/" element={
-          <><Home /> <Footer /></>} />
+          <><Home /><Footer /></>} />
           <Route path="/login" element={<Login />} />
-          <Route path="/Testimonial" element={<Testimonial />} />
-          <Route path="/Contact" element={<Contact/>} />
+          <Route path="/Event" element={<Events />} />
           <Route path="/Login/Register/Login" element={<Login />} />
           <Route path="/Login/Register" element={<Register />} />
         </Routes>
