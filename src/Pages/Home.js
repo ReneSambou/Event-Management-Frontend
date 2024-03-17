@@ -116,7 +116,7 @@ const Home = () => {
             <br />
             Trusted by 1000+ users
           </p>
-          <Link to='Home/Register'><Button variant='primary' size='lg'>
+          <Link to='Home/Register/Login'><Button variant='primary' size='lg'>
             Get Started
           </Button>
          </Link>

@@ -1,12 +1,9 @@
 import { Link } from 'react-router-dom';
-import Lottie from 'lottie-react';
-import animationData from '../Components/Assets/event.json';
+
 
 const EventList = (props) => {
   const events = props.events || [];
-  return (
-    <div className='event-list-container'>
-      
+  return (      
     <div className='event-list'>
       {events.map((event) => (
         <div className='event-preview' key={event.id}>
@@ -22,7 +19,7 @@ const EventList = (props) => {
         </div>
       ))}
     </div>
-    </div>
+    
   );
 };
 

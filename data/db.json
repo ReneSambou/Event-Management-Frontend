@@ -1,12 +1,76 @@
 {
   "events": [
     {
-      "id": "5dc7",
-      "title": "Home",
-      "description": "jdd",
-      "organiser": "jdj",
-      "location": "jjjrr",
+      "id": "3cc6",
+      "title": "Tech Summit 2024",
+      "description": "Join us for the most anticipated tech event of the year! Explore the latest advancements in AI, blockchain, and cybersecurity. Engage with industry leaders, attend workshops, and network with fellow tech enthusiasts.",
+      "organiser": "Tech Innovations Inc.",
+      "location": "Silicon Valley Convention Center, San Francisco, CA",
+      "date": "2024-03-30"
+    },
+    {
+      "id": "6d20",
+      "title": "Artisan Food Festival",
+      "description": "Indulge your senses at the Artisan Food Festival! Experience a culinary journey with handcrafted delicacies, gourmet treats, and locally sourced specialties. Enjoy live cooking demos, food tastings, and family-friendly activities.",
+      "organiser": "Foodie Events LLC",
+      "location": "Riverside Park, New York City, NY",
+      "date": "2024-04-11"
+    },
+    {
+      "id": "0072",
+      "title": "Sustainable Living Expo",
+      "description": "Discover sustainable living solutions at the Expo! Learn about eco-friendly practices, renewable energy, and green technologies. Explore exhibitor booths, attend eco-workshops, and participate in hands-on demonstrations.",
+      "organiser": "Green Earth Foundation",
+      "location": "EcoCenter, Portland, OR",
+      "date": "2024-04-09"
+    },
+    {
+      "id": "37fb",
+      "title": "Wellness Retreat",
+      "description": "Nurture your mind, body, and soul at the Wellness Retreat! Immerse yourself in yoga sessions, meditation classes, and holistic therapies. Reconnect with nature, rejuvenate your spirit, and embrace a healthier lifestyle.",
+      "organiser": "Serenity Wellness Center",
+      "location": "Tranquil Valley Resort, Sedona, AZ",
       "date": "2024-03-15"
+    },
+    {
+      "id": "6975",
+      "title": "Fashion Forward Conference",
+      "description": "Stay ahead of the fashion curve at the Fashion Forward Conference! Explore emerging trends, runway showcases, and style workshops led by industry experts. Connect with fashion influencers, designers, and brands.",
+      "organiser": "Couture Events Agency",
+      "location": "Fashion Hub Center, Los Angeles, CA",
+      "date": "2024-03-29"
+    },
+    {
+      "id": "a647",
+      "title": "Music & Arts Festival",
+      "description": " Immerse yourself in creativity at the Music & Arts Festival! Experience live performances by renowned artists, discover local artisans, and indulge in delicious food and drinks. Enjoy interactive art installations and family-friendly activities.",
+      "organiser": "Harmony Productions",
+      "location": "Meadow Park, Austin, TX",
+      "date": "2024-05-03"
+    },
+    {
+      "id": "2ab8",
+      "title": "Health & Fitness Expo",
+      "description": "Get inspired to lead a healthier lifestyle at the Health & Fitness Expo! Explore fitness trends, nutrition tips, and wellness products. Participate in workout challenges, attend expert panels, and meet fitness celebrities.",
+      "organiser": " FitLife Events Inc.",
+      "location": "Wellness Center, Miami, FL",
+      "date": "2024-05-09"
+    },
+    {
+      "id": "aae5",
+      "title": "Adventure Travel Summit",
+      "description": "Embark on a journey of discovery at the Adventure Travel Summit! Dive into adrenaline-pumping activities, outdoor adventures, and cultural experiences. Connect with adventure enthusiasts, tour operators, and travel experts.",
+      "organiser": "Wanderlust Adventures",
+      "location": "Adventure Park Lodge, Denver, CO",
+      "date": "2024-06-21"
+    },
+    {
+      "id": "5453",
+      "title": "Film Festival Showcase",
+      "description": " Celebrate cinematic excellence at the Film Festival Showcase! Experience the magic of storytelling through compelling films, documentaries, and shorts. Engage with filmmakers, attend Q&A sessions, and vote for your favorite films.",
+      "organiser": "Cinema Arts Foundation",
+      "location": "Movieplex Theater, Seattle, WA",
+      "date": "2024-06-29"
     }
   ]
 }

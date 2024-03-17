@@ -11,7 +11,7 @@ import Register from './Components/Register';
 import AddEvent from './Components/AddEvent.js';
 import EventDetails from './Components/EventDetails.js';
 import 'react-toastify/dist/ReactToastify.css';
-import { ToastContainer } from 'react-toastify'; // Import ToastContainer
+import { ToastContainer } from 'react-toastify'; 
 
 
 
@@ -112,7 +112,7 @@ function App() {
             element={
               <>
                 <Navbar />
-                <Register />
+                <Login />
                 <Footer />
               </>
             }
