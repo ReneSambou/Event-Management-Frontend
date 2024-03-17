@@ -7,7 +7,6 @@ const Navbar = () => {
             <Link to="/"><h1>Muse</h1></Link>
             <div className="links">
             <Link to="/">Home</Link>
-            <Link to="/Event">Events</Link>
                 <Link to="Login" style={{
                     color:"white",
                     backgroundColor: "#257bec",

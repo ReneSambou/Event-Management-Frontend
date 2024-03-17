@@ -9,11 +9,17 @@ import Login from './Components/Login';
 import Home from './Pages/Home';
 import Register from './Components/Register';
 import AddEvent from './Components/AddEvent.js';
+import EventDetails from './Components/EventDetails.js';
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify'; // Import ToastContainer
+
+
 
 function App() {
   return (
     <Router>
       <>
+      <ToastContainer />
         <Routes>
           <Route
             exact
@@ -55,6 +61,18 @@ function App() {
                 <EventNav />
                 <div className='content'>
                   <AddEvent />
+                </div>
+              </>
+            }
+          />
+
+          <Route
+            path='/Events/:id'
+            element={
+              <>
+                <EventNav />
+                <div className='content'>
+                  <EventDetails />
                 </div>
               </>
             }

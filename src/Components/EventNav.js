@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 const EventNav = () => {
     return (
         <nav className="event-nav">
-            <h1>Muse Events</h1>
+            <Link to="/"><h1>Muse</h1></Link>
             <div className="event-nav-links">
-                <Link to="/Event">My Events</Link>
+            <Link to="/Event">Events</Link>
                 <Link to="/AddEvent" style={{
                     color: 'white', 
                     backgroundColor: '#257bec',
